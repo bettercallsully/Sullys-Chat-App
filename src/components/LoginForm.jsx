@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 import axios from 'axios';
 
 const LoginForm = () => {
@@ -12,7 +12,7 @@ const handleSubmit = async (e) => {
 
     try { 
         // username | password => chatengine -> give messages
-        await axios.get('https://api.chatengine.io/chats)', { headers: authObject });
+        await axios.get('https://api.chatengine.io/chats', { headers: authObject });
         localStorage.setItem('username', username);
         localStorage.setItem('password', password);
 
@@ -38,7 +38,7 @@ const handleSubmit = async (e) => {
                     <div align="center">
                     <button type="submit" className="button">
                         <span>
-                            Start Chatting...
+                            Start Chatting... 
                         </span>
                     </button>
                     </div>

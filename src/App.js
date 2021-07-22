@@ -13,7 +13,7 @@ if(!localStorage.getItem('username')) return <LoginForm />
         height="100vh"
         projectID="6fba601d-ff36-4c03-8bd2-4a62f6a8703b"
         userName="bettercallsully"
-        userSecret="1996"
+        userSecret="123"
         renderChatFeed={(chatAppProps) => <ChatFeed { ... chatAppProps} />}
         />
     )
