@@ -38,7 +38,7 @@ const handleSubmit = async (e) => {
                     <div align="center">
                     <button type="submit" className="button">
                         <span>
-                            Start Chatting... 
+                            Start Chatting
                         </span>
                     </button>
                     </div>
