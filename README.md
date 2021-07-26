@@ -21,7 +21,11 @@ Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-Install like you would any other local React app after forking
+Install like you would any other local React app after forking.
+
+1. Click live demo linked
+2. Login as "testuser" password is "123"
+3. Chat Away! 👍
 
 - Prerequisites
 - Setup
